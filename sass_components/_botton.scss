@@ -1,3 +1,17 @@
 //////////////////////////////////////////////////////////
 
 // ******************* BOTTONS ************************ //
+
+.btn{
+    text-transform: capitalize;
+    display: inline-block;
+    color: $white;
+    background-image: linear-gradient(to right, $lime-green, $bright-cyan);
+    padding: 1rem 2rem;
+    border-radius: 2.5rem;
+    transition: .5s ease-in-out;
+
+    &:hover{
+        opacity: 0.7;
+    }
+}
