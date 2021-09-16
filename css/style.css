@@ -158,8 +158,9 @@ a {
   font-size: 2rem; }
 
 .heading-sm, .heading-sm-2 {
-  font-weight: 600;
-  font-size: 1rem; }
+  font-weight: 400;
+  font-size: 1rem;
+  text-transform: capitalize; }
 
 .heading-sm-2 {
   opacity: 0.5; }
@@ -273,3 +274,13 @@ a {
     color: #2d314d; }
   .main .top-main {
     width: 55%; }
+
+.services {
+  display: flex;
+  justify-content: space-between; }
+  .services .light-text {
+    font-size: 0.9rem; }
+  .services .service {
+    padding-right: 1.7rem; }
+    .services .service .service-img {
+      width: 4rem; }
