@@ -12,7 +12,8 @@
     }
 
     .home-text{
-        padding: 6rem 20rem 0rem 0rem;
+        padding: 8rem 0;
+        width: 58%;
     }
 }
 
@@ -23,15 +24,15 @@
         position: absolute;
         z-index: -1;
         top: -12rem;
-        right: -15rem;
-        width: 60rem;
+        right: -14rem;
+        width: 72vw;
     }
 
     .home-img-2{
         position: absolute;
         z-index: 3;
-        top: -6.9rem;
-        right: -8rem;
+        top: -7.5rem;
+        right: -7rem;
         width: 50vw;
     }
 }

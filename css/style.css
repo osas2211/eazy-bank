@@ -151,11 +151,11 @@ a {
 
 .heading-lg {
   font-weight: 400;
-  font-size: 2.5rem; }
+  font-size: 3rem; }
 
 .heading-md {
-  font-weight: 400;
-  font-size: 1.5rem; }
+  font-weight: 300;
+  font-size: 2rem; }
 
 .heading-sm, .heading-sm-2 {
   font-weight: 600;
@@ -245,7 +245,8 @@ a {
   .home h2 {
     color: #2d314d; }
   .home .home-text {
-    padding: 6rem 20rem 0rem 0rem; }
+    padding: 8rem 0;
+    width: 58%; }
 
 .home-img {
   position: relative;
@@ -254,11 +255,21 @@ a {
     position: absolute;
     z-index: -1;
     top: -12rem;
-    right: -15rem;
-    width: 60rem; }
+    right: -14rem;
+    width: 72vw; }
   .home-img .home-img-2 {
     position: absolute;
     z-index: 3;
-    top: -6.9rem;
-    right: -8rem;
+    top: -7.5rem;
+    right: -7rem;
     width: 50vw; }
+
+.main {
+  background-color: #f3f4f6;
+  margin-top: -16rem;
+  width: 100%;
+  padding: 7rem 0 4rem 0; }
+  .main h2 {
+    color: #2d314d; }
+  .main .top-main {
+    width: 55%; }
