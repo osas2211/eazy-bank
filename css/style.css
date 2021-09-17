@@ -9,6 +9,10 @@
   color: #9698a6;
   line-height: 25px; }
 
+ul {
+  padding: 0;
+  list-style: none; }
+
 .container {
   width: 80%;
   margin: auto; }
@@ -321,3 +325,35 @@ a {
 .author {
   font-size: 11px;
   color: #9698a6; }
+
+.footer {
+  background-color: #2d314d;
+  color: white;
+  padding: 2.5rem 0;
+  margin-top: 3rem; }
+  .footer .container {
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize; }
+
+.logo-icon .logo {
+  margin-bottom: 2rem; }
+
+.btn-footnote {
+  text-align: right; }
+  .btn-footnote .heading-sm {
+    display: block;
+    color: #2bb7da; }
+  .btn-footnote .btn {
+    margin-bottom: 2rem; }
+
+.list-1, .list-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 0.9rem; }
+  .list-1 li, .list-2 li {
+    cursor: pointer;
+    transition: .5s ease-in-out; }
+    .list-1 li:hover, .list-2 li:hover {
+      color: #31d35c; }
