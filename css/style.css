@@ -277,7 +277,8 @@ a {
 
 .services {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  -flex-wrap: wrap; }
   .services .light-text {
     font-size: 0.9rem; }
   .services .service {
@@ -292,7 +293,8 @@ a {
 
 .latest-container {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  flex-wrap: wrap; }
   .latest-container .latest-photo {
     height: 12rem;
     width: 100%; }
@@ -308,7 +310,10 @@ a {
   .latest-item .author, .latest-item .heading-sm, .latest-item .light-text {
     padding: 0 1rem; }
   .latest-item .heading-sm {
-    color: #2d314d; }
+    color: #2d314d;
+    transition: .5s ease-in-out; }
+    .latest-item .heading-sm:hover {
+      color: #31d35c; }
   .latest-item .light-text {
     font-size: 0.85rem;
     line-height: 22px; }

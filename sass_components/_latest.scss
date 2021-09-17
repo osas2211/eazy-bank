@@ -9,6 +9,7 @@
 .latest-container{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     .latest-photo{
         height: 12rem;
         width: 100%;
@@ -30,6 +31,10 @@
 
     .heading-sm{
         color: $dark-blue;
+        transition: .5s ease-in-out;
+        &:hover{
+            color: $lime-green;
+        }
     }
 
     .light-text{
