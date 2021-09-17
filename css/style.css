@@ -285,5 +285,34 @@ a {
     .services .service .service-img {
       width: 4rem; }
 
-.latest .heading-md {
-  color: #2d314d; }
+.latest {
+  padding: 2rem 0; }
+  .latest .heading-md {
+    color: #2d314d; }
+
+.latest-container {
+  display: flex;
+  justify-content: space-between; }
+  .latest-container .latest-photo {
+    height: 12rem;
+    width: 100%; }
+    .latest-container .latest-photo img {
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px; }
+
+.latest-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 16rem; }
+  .latest-item .author, .latest-item .heading-sm, .latest-item .light-text {
+    padding: 0 1rem; }
+  .latest-item .heading-sm {
+    color: #2d314d; }
+  .latest-item .light-text {
+    font-size: 0.85rem;
+    line-height: 22px; }
+
+.author {
+  font-size: 11px;
+  color: #9698a6; }

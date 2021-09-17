@@ -1,6 +1,45 @@
 .latest{
-
+    padding: 2rem 0;
     .heading-md{
         color: $dark-blue;
     }
+    
+}
+
+.latest-container{
+    display: flex;
+    justify-content: space-between;
+    .latest-photo{
+        height: 12rem;
+        width: 100%;
+        img{
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+    }
+}
+
+.latest-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 16rem;
+    .author, .heading-sm, .light-text{
+        padding: 0 1rem;
+    }
+
+    .heading-sm{
+        color: $dark-blue;
+    }
+
+    .light-text{
+        font-size: 0.85rem;
+        line-height: 22px;
+    }
+    
+}
+
+.author{
+    font-size: 11px;
+    color: $grayish-blue;
 }
