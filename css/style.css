@@ -376,3 +376,44 @@ a {
     justify-content: center; }
   .service, .latest-item {
     padding: 2rem 0; } }
+
+@media (max-width: 600px) {
+  .container {
+    width: 80%; }
+  .main {
+    text-align: center; }
+    .main h2 {
+      width: 80%;
+      margin: auto;
+      margin-bottom: 1rem; }
+    .main .top-main {
+      width: 100%; }
+  .services {
+    grid-template-columns: repeat(1, 1fr); }
+    .services .service {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-right: 0; }
+  .latest h2 {
+    text-align: center;
+    padding: 0; }
+  .latest-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .latest-item {
+    width: 90%; }
+  .footer .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+  .logo-icon {
+    margin-bottom: 2rem; }
+    .logo-icon .logo {
+      width: 10rem;
+      margin-bottom: 1rem; }
+  .btn-footnote {
+    text-align: center; }
+  .list-1 li, .list-2 li {
+    padding-bottom: 1rem; } }
