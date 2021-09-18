@@ -3,9 +3,38 @@
         width: 80%;
     }
 
+    .home{
+        flex-direction: column;
+        min-height: none;
+        padding-left: 0;
+        text-align: center;
+        .home-text{
+            width: 80%;
+            margin: auto;
+        }
+    }
+
+    .home-img{
+        display: none;
+    }
+    .home-img-mobile{
+        display: block;
+        position: relative;
+        overflow: hidden;
+        .home-img-mobile-2{
+            position: absolute;
+            top: -11.5rem;
+            left: 0;
+        }
+        .home-img-mobile-1{
+            margin-top: -4.5rem;
+        }
+
+    }
 
 
     .main{
+        margin-top: 3rem;
         h2{
             width: 80%;
             margin: auto;

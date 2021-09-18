@@ -269,6 +269,9 @@ a {
     right: -7rem;
     width: 50vw; }
 
+.home-img-mobile {
+  display: none; }
+
 .main {
   background-color: #f3f4f6;
   margin-top: -16rem;
@@ -380,7 +383,28 @@ a {
 @media (max-width: 600px) {
   .container {
     width: 80%; }
+  .home {
+    flex-direction: column;
+    min-height: none;
+    padding-left: 0;
+    text-align: center; }
+    .home .home-text {
+      width: 80%;
+      margin: auto; }
+  .home-img {
+    display: none; }
+  .home-img-mobile {
+    display: block;
+    position: relative;
+    overflow: hidden; }
+    .home-img-mobile .home-img-mobile-2 {
+      position: absolute;
+      top: -11.5rem;
+      left: 0; }
+    .home-img-mobile .home-img-mobile-1 {
+      margin-top: -4.5rem; }
   .main {
+    margin-top: 3rem;
     text-align: center; }
     .main h2 {
       width: 80%;
