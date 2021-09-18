@@ -5,6 +5,7 @@
     }
     .home{
         padding-left: 5%;
+        min-height: auto;
 
         .home-text{
             padding: 2rem 0;
@@ -25,6 +26,11 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
+    }
+    .services{
+        .light-text{
+            font-size: 0.7rem;
+        }
     }
 
     .service, .latest-item{

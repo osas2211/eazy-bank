@@ -3,6 +3,8 @@
 // ********************* HEADER ************************ //
 .main-header{
     background-color: $white;
+    position: relative;
+    z-index: 6;
 }
 .main-header .container{
     display: flex;
@@ -14,3 +16,4 @@
     position: relative;
     background-color: $white;
 }
+

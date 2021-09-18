@@ -20,3 +20,47 @@
         }
     }
 }
+
+.nav-mobile{
+    display: none;
+    position: absolute;
+    top: -50rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: $white;
+    width: 90%;
+    padding: 2rem 0;
+    z-index: 2;
+    border-radius: 0.6rem;
+    text-transform: capitalize;
+    color: $dark-blue;
+    font-weight: 600;
+    font-size: 1.2rem;
+    transition: .5s ease-in-out;
+    a{
+        transition: .5s ease-in-out;
+    }
+    a:hover{
+        color: $lime-green;
+    }
+    a:not(:last-child){
+        margin-bottom: 1.5rem;
+    }
+}
+
+.nav-open, .nav-close{
+    position: absolute;
+    top: 1.2rem;
+    right: 2rem;
+    z-index: 6;
+    display: none;
+    cursor: pointer;
+}
+
+.nav-display{
+    display: block;
+}
+.nav-down{
+    top:5rem;
+    transition: .5s ease-in-out;
+}
