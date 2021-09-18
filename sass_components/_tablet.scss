@@ -21,4 +21,13 @@
             right: -4rem;
         }
     }
+    .services, .latest-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+
+    .service, .latest-item{
+        padding: 2rem 0;
+    }
 }

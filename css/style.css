@@ -281,8 +281,7 @@ a {
 
 .services {
   display: flex;
-  justify-content: space-between;
-  -flex-wrap: wrap; }
+  justify-content: space-between; }
   .services .light-text {
     font-size: 0.9rem; }
   .services .service {
@@ -370,4 +369,10 @@ a {
     right: -7rem; }
   .home-img .home-img-2 {
     top: -1.5rem;
-    right: -4rem; } }
+    right: -4rem; }
+  .services, .latest-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center; }
+  .service, .latest-item {
+    padding: 2rem 0; } }
