@@ -1,0 +1,24 @@
+@media (max-width: 1000px) {
+    
+    .container{
+        width: 90%;
+    }
+    .home{
+        padding-left: 5%;
+
+        .home-text{
+            padding: 2rem 0;
+        }
+    }
+    .home-img{
+        .home-img-1{
+            top: -3rem;
+            right: -7rem;
+        }
+    
+        .home-img-2{
+            top: -1.5rem;
+            right: -4rem;
+        }
+    }
+}
